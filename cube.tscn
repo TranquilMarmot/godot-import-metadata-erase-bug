@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://1c2ph0l4qtw"]
+
+[ext_resource type="PackedScene" uid="uid://cly1altwb2cm2" path="res://cube.glb" id="1_7kauc"]
+
+[node name="cube" instance=ExtResource("1_7kauc")]
+
+[node name="Cube" parent="." index="0"]
+metadata/test = true
